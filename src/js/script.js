@@ -1,9 +1,16 @@
-// const res = confirm("kam");
 
-// let res = +prompt("rae yiu 128" ,"29");
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "10");
+const film = prompt("Один из последних просмотренных фильмов?");
+const rates = +prompt("На сколько оцените его?");
 
+ const  personalMovieDB = {
+        count :  numberOfFilms,
+        movies: {},
+        actors:{},
+        genres: [],
+        privat: false
+};
 
-const che = false, no = false;
+personalMovieDB.movies[film] = rates;
 
-console.log(che && no);
-document.write("hell");
+console.log(personalMovieDB);
