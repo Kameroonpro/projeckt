@@ -6,3 +6,4 @@
 const che = false, no = false;
 
 console.log(che && no);
+document.write("hell");
